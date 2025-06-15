@@ -1,1 +1,1 @@
-# grid_img_spilt
+# grid-img-spilt
