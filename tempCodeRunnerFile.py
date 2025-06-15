@@ -1,1 +1,0 @@
-np.where(v_proj > v_thresh)
