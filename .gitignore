@@ -1,4 +1,4 @@
-output_images/*
-debug_images/*
+output_images
+debug_images
 
 tempCodeRunnerFile.py
