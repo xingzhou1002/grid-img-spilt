@@ -1,3 +1,2 @@
-output_images
-debug_images
-PNG_grid_with_markers.pdf_Page_1.png
+output_images/*
+debug_images/*
