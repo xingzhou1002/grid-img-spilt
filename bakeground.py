@@ -51,12 +51,12 @@ def generate_grid_pdf():
     for i in range(cols + 1):
         x = offset_x + i * GRID_SIZE_MM
         plt.plot([x, x], [offset_y, offset_y + rows * GRID_SIZE_MM], 
-                'k-', linewidth=1, alpha=0.9, color = "#386aff")
+                'k-', linewidth=1, alpha=1, color = "#386aff")
     
     for j in range(rows + 1):
         y = offset_y + j * GRID_SIZE_MM
         plt.plot([offset_x, offset_x + cols * GRID_SIZE_MM], [y, y], 
-                'k-', linewidth=1, alpha=0.9, color = "#386aff")
+                'k-', linewidth=1, alpha=1, color = "#386aff")
     
     # 定位点
     marker_positions = [
